@@ -3,6 +3,7 @@ Scrape financial data from Yahoo Finance, clean it, then apply a small set of tr
 
 ## Instructions for Implementation
 - The only input necessary is a csv file containing the list of companies you wish to download data for (use same format as Energy.csv)
+- The output is a subset of the input stocks. Specifically these are the stocks where less than 10% of the financial time series is estimations 
 - Since each csv of the downloading/cleaning/saving is saved ensure that each section saves to a different location 
 - Specifications for the date range can be made in the format '2020-04-01'
 
